@@ -1,0 +1,236 @@
+body {
+    font-family: 'Montserrat';
+}
+
+/*Navigasi Menu*/
+
+.navbar {
+    background: #171717;
+    border-bottom: 1px solid #707070;
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: orange !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: orange;
+    font-weight: 400;
+}
+
+/*Navigasi Menu*/
+
+/*Carousel*/
+.carousel {
+    height: 430px;
+    background: #171717;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'Lora';
+}
+
+.carousel h1 {
+    font-weight: 200;
+}
+
+/*Carousel*/
+
+/*Features*/
+.features h3,
+.designer h3,
+.similar-product h3,
+.checkout-detail h3,
+.modal-body h3,
+.category-product h3 {
+    font-family: 'Lora';
+    font-weight: bold;
+    color: #1B2690;
+}
+
+.features p,
+.figure p,
+.designer p,
+.similar-product p,
+footer p,
+.checkout-detail p,
+.modal-body p,
+.category-product p{
+    font-weight: 200;
+    color: #b7b7b7;
+}
+
+/*Features*/
+
+/*Figure*/
+.figure h5,
+.designer h5 {
+    color: #171717;
+    font-weight: 600;
+}
+
+/*Figure*/
+
+/*Hover Image*/
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/*Hover Image*/
+
+/*breadcump*/
+.breadcump {
+    margin-top: 100px;
+}
+
+/*breadcump*/
+
+/*Product Thumbnail*/
+.product-thumbnail-container {
+    background-color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+/*Product Thumbnail*/
+
+/*Button Product*/
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #707070;
+
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+}
+
+/*Button Product*/
+
+/*design by*/
+.design-by h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b7b7b7;
+    margin-bottom: 20px;
+}
+
+.design-by h4,
+.similar-product h4 {
+    font-size: 18px;
+    color: #171717;
+}
+
+.design-by p,
+.similar-product p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/*design by*/
+
+/*product desc and review*/
+.product-description {
+    background-color: #f6f7fb;
+    height: 350px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-description .tab-content p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #868686;
+    line-height: 28px;
+}
+
+.product-review {
+    height: 330px;
+    overflow: scroll;
+}
+
+.product-review h5 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+}
+
+/*product desc and review*/
+
+.similar-product {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+
+.cart-breadcumps {
+    margin-top: 50px;
+}
+
+/*Cart Price*/
+.detail-price {
+    background-color: #f6f7fb;
+    border: 1px solid #eaeaea;
+    color: #171717;
+}
+
+.detail-price h5 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/*Cart Price*/
+
+/*Modal*/
+
+/*Modal*/
+
+/*Category Produk*/
+.category-product {
+    margin-top: 90px;
+}
+
+.category-product h4{
+    font-size: 1rem;
+}
+/*Category Produk*/
